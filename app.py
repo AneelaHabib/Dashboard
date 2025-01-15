@@ -6,7 +6,7 @@ import seaborn as sns
 # Set the title of the dashboard
 st.title("Interactive Data Dashboard")
 # File uploader widget
-uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
+uploaded_file = st.file_uploader("student.csv", type=["csv"])
 
 if uploaded_file is not None:
     # Read the CSV file
